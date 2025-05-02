@@ -1,0 +1,269 @@
+/* 
+TO DOS
+- add icons
+*/
+
+:root {
+    --light-green: #85c55d;
+    --white: #ffffff;
+    --black: #141414;
+    --black-secondary: #222222;
+    --light-gray: #d1d1d1;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Forced Square';
+    src: url('../fonts/forced-square.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cascadia Mono';
+    src: url('../fonts/CascadiaMonoPL-Regular.otf') format('truetype');
+}
+
+
+/* Utility Text Styles */
+.text-primary {
+    color: var(--white) !important;
+    font-family: 'Forced Square', sans-serif;
+    font-weight: 700;
+
+}
+
+.text-secondary {
+    color: var(--light-green) !important;
+    font-family: 'Forced Square', sans-serif;
+    font-weight: none;
+}
+
+.text-info {
+    color: var(--light-gray) !important;
+    font-family: 'Cascadia Mono', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    /* Improved readability */
+}
+
+.text-info-emphasis {
+    color: var(--light-green) !important;
+
+}
+
+
+/* Font Family Utility */
+.font-square {
+    font-family: 'Forced Square', sans-serif;
+}
+
+.font-mono {
+    font-family: 'Cascadia Mono', monospace;
+}
+
+
+
+
+/* Typography Sizes */
+.text-xl {
+    font-size: 3rem;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-md {
+    font-size: 1.5rem;
+}
+
+.text-base {
+    font-size: 1.125rem;
+}
+
+.text-sm {
+    font-size: 1rem;
+}
+
+.text-xs {
+    font-size: 0.875rem;
+}
+
+/* Base Styles */
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    /* Base size for consistent rem scaling */
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Cascadia Mono', monospace;
+    line-height: 1.6;
+    /* Improved paragraph readability */
+}
+
+a {
+    text-decoration: none;
+    color: var(--white) !important;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--light-green) !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--white);
+}
+
+.navbar a:hover {
+    color: var(--white) !important;
+}
+
+a[href="#top"] {
+    font-size: 2rem;
+    transition: opacity 0.3s ease;
+}
+
+a[href="#top"]:hover {
+    opacity: 0.7;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--black) !important;
+}
+
+.navbar-toggler {
+    filter: invert(1);
+    border: none;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: var(--light-green) !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: var(--black);
+    border: 1px solid var(--light-gray);
+}
+
+.dropdown-item {
+    color: var(--white);
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-green);
+    color: var(--white);
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5rem 1rem;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.square-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.1rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--light-gray);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: transparent !important;
+    color: var(--white) !important;
+    border: 1px solid var(--white) !important;
+    border-radius: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-green) !important;
+    color: var(--white) !important;
+    border-color: var(--light-green) !important;
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-secondary {
+    background-color: var(--light-green) !important;
+    color: var(--white) !important;
+    border: none;
+    border-radius: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease;
+}
+
+/* Footer */
+footer {
+    background-color: var(--black-secondary);
+    color: var(--white);
+}
+
+.divider {
+    width: 18%;
+    border: 1px solid var(--white);
+    opacity: 1;
+}
+
+/* Videos */
+iframe {
+    border-radius: 0.3rem;
+}
+
+/* Utility Classes */
+.bg-primary {
+    background-color: var(--black) !important;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+
+
+/* About page */
+
+.profile-pic {
+    max-width: 100%;
+    width: 450px;
+}
