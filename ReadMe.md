@@ -1,7 +1,3 @@
-Here’s a clear and professional **README** description for your entire website project:
-
----
-
 ## 📄 Project Overview: James Slone Portfolio Website
 
 This is the official portfolio website of **James Slone**, a video editor, creative designer, and storytelling expert. The site showcases James’ work, professional background, and editing philosophy through a modern, responsive layout built with HTML, CSS, and Bootstrap.
@@ -25,7 +21,3 @@ The goal of this website is to:
 - **Portfolio**: Highlighted video editing work with descriptions and links.
 
 - **Contact**: Direct method for inquiries or collaborations.
-
----
-
-Let me know if you’d like this formatted as a `README.md` file or customized for GitHub or hosting documentation.
