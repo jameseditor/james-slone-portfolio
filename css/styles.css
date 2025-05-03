@@ -102,7 +102,7 @@ body {
     color: var(--white);
     font-family: 'Cascadia Mono', monospace;
     line-height: 1.6;
-    /* Improved paragraph readability */
+    overflow-x: hidden;
 }
 
 a {
@@ -266,4 +266,13 @@ iframe {
 .profile-pic {
     max-width: 100%;
     width: 450px;
+}
+
+/* projects page */
+.card {
+    background-color: transparent;
+    color: var(--white) !important;
+    border: none;
+    box-shadow: none !important;
+
 }
