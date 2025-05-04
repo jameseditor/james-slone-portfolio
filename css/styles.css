@@ -119,9 +119,6 @@ a:hover {
     color: var(--white);
 }
 
-.navbar a:hover {
-    color: var(--white) !important;
-}
 
 a[href="#top"] {
     font-size: 2rem;
@@ -136,6 +133,7 @@ a[href="#top"]:hover {
 .navbar {
     background-color: var(--black) !important;
 }
+
 
 .navbar-toggler {
     filter: invert(1);
@@ -158,8 +156,8 @@ a[href="#top"]:hover {
 }
 
 .dropdown-item:hover {
-    background-color: var(--light-green);
-    color: var(--white);
+    background-color: var(--black);
+    color: var(--light-green) !important;
 }
 
 /* Hero Section */
@@ -225,13 +223,29 @@ a[href="#top"]:hover {
 }
 
 .btn-secondary {
-    background-color: var(--light-green) !important;
-    color: var(--white) !important;
-    border: none;
+    background-color: transparent !important;
+    color: var(--light-green) !important;
+    border: 1px solid var(--light-green) !important;
     border-radius: 0.1rem;
     padding: 0.5rem 1rem;
-    transition: background-color 0.2s ease;
+    transition: 0.3s ease;
+    outline: none;
+    box-shadow: none;
 }
+
+.btn-secondary:hover {
+    background-color: transparent !important;
+    color: var(--white) !important;
+    border: 1px solid var(--white) !important;
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
