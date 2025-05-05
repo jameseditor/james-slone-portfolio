@@ -25,16 +25,17 @@ TO DOS
 
 /* Utility Text Styles */
 .text-primary {
+    color: var(--light-green) !important;
+    font-family: 'Forced Square', sans-serif;
+    font-weight: none;
+}
+
+.text-secondary {
+
     color: var(--white) !important;
     font-family: 'Forced Square', sans-serif;
     font-weight: 700;
 
-}
-
-.text-secondary {
-    color: var(--light-green) !important;
-    font-family: 'Forced Square', sans-serif;
-    font-weight: none;
 }
 
 .text-info {
@@ -263,6 +264,35 @@ footer {
 iframe {
     border-radius: 0.3rem;
 }
+
+
+.player {
+    width: 100%;
+}
+
+.ratio-16-9 {
+    aspect-ratio: 16 / 9;
+}
+
+.ratio-9-16 {
+    aspect-ratio: 9 / 16;
+}
+
+
+.video-wrapper-primary {
+    max-width: 500px;
+    /* changes video size */
+    margin: 0 auto;
+}
+
+
+.video-wrapper-secondary {
+    max-width: 500px;
+    /* changes video size */
+    margin: 0 auto;
+}
+
+
 
 /* Utility Classes */
 .bg-primary {
