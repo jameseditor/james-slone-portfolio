@@ -21,3 +21,9 @@ The goal of this website is to:
 - **Portfolio**: Highlighted video editing work with descriptions and links.
 
 - **Contact**: Direct method for inquiries or collaborations.
+
+### ✅TO DOs
+- Add testimonial videos
+- Individual Project pages'
+- Custom pixel icons
+- fix banner video on mobile layouts
