@@ -18,13 +18,11 @@ The goal of this website is to:
 
 - **About**: Personal background, experience, and client testimonials.
 
-- **Portfolio**: Highlighted video editing work with descriptions and links.
+- **Work**: Highlighted work with descriptions and links.
 
-- **Contact**: Direct method for inquiries or collaborations.
 
 ### ✅TO DOs
 - Edit testimonial videos
-- Individual Project pages'
+- `1/14` Individual Project pages'
 - Custom pixel icons
-- 14 project pages
 - change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
