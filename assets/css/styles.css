@@ -1,8 +1,3 @@
-/* 
-TO DOS
-- add icons
-*/
-
 :root {
     --light-green: #85c55d;
     --white: #ffffff;
@@ -11,7 +6,7 @@ TO DOS
     --light-gray: #d1d1d1;
 }
 
-/* Fonts */
+/* Fonts  "what does this do?"*/
 @font-face {
     font-family: 'Forced Square';
     src: url('../fonts/forced-square.ttf') format('truetype');

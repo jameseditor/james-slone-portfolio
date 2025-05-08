@@ -23,7 +23,8 @@ The goal of this website is to:
 - **Contact**: Direct method for inquiries or collaborations.
 
 ### ✅TO DOs
-- Add testimonial videos
+- Edit testimonial videos
 - Individual Project pages'
 - Custom pixel icons
-- fix banner video on mobile layouts
+- 14 project pages
+- change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
