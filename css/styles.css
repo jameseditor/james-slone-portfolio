@@ -160,7 +160,7 @@ a[href="#top"]:hover {
 .hero-section {
     background-color: var(--black);
     color: var(--white);
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .hero-section h1 {
