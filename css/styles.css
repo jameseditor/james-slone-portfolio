@@ -315,3 +315,17 @@ iframe {
     box-shadow: none !important;
 
 }
+
+
+
+
+
+.card-link {
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.1s ease;
+}
+
+.card-link:hover {
+    background-color: var(--black-secondary);
+}
