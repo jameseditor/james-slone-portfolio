@@ -141,6 +141,23 @@ a[href="#top"]:hover {
     color: var(--light-green) !important;
 }
 
+
+/* Default navbar size */
+#mainNav {
+    transition: all 0.3s ease;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Shrunk navbar */
+#mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
 /* Dropdown */
 .dropdown-menu {
     background-color: var(--black);
