@@ -111,8 +111,17 @@ a:hover {
     color: var(--light-green) !important;
 }
 
+
+/* bread crumb */
+
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--white);
+}
+
+
+.active {
+    color: var(--white) !important;
+    text-decoration: underline;
 }
 
 
