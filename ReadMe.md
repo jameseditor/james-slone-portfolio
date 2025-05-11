@@ -1,3 +1,5 @@
+Verson: 1.0.0 `2025-05-10`
+
 ## 📄 Project Overview: James Slone Portfolio Website
 
 This is the official portfolio website of **James Slone**, a video editor, creative designer, and storytelling expert. The site showcases James’ work, professional background, and editing philosophy through a modern, responsive layout built with HTML, CSS, and Bootstrap.
@@ -23,9 +25,11 @@ The goal of this website is to:
 
 ### ✅TO DOs
 - Edit testimonial videos
-- `8/14` Individual Project pages'
+- `12/14` Individual Project pages'
 - Custom pixel icons
 - change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.
 - change the headings in the project pages to white, It might be too distracting
-- fixed nav, for easy navigation
+- see why falcon icon does not show on google
+- opitimize images for faster load times
+- add downloaded videos on the site for long term storage and backup incase a video is ever removed
