@@ -34,3 +34,4 @@ The goal of this website is to:
 - [ ] opitimize images for faster load times
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
+- [x] ~~return to top button on all pages~~
