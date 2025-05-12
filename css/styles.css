@@ -30,7 +30,6 @@
     color: var(--white) !important;
     font-family: 'Forced Square', sans-serif;
     font-weight: 700;
-
 }
 
 .text-info {
@@ -57,9 +56,6 @@
 .font-mono {
     font-family: 'Cascadia Mono', monospace;
 }
-
-
-
 
 /* Typography Sizes */
 .text-xl {
@@ -164,9 +160,6 @@ a[href="#top"]:hover {
     padding-bottom: 0.5rem;
 }
 
-
-
-
 /* Dropdown */
 .dropdown-menu {
     background-color: var(--black);
@@ -261,14 +254,6 @@ a[href="#top"]:hover {
     border: 1px solid var(--white) !important;
 }
 
-
-
-
-
-
-
-
-
 /* Footer */
 footer {
     background-color: var(--black-secondary);
@@ -341,10 +326,6 @@ iframe {
     box-shadow: none !important;
 
 }
-
-
-
-
 
 .card-link {
     display: block;
