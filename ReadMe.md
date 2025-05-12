@@ -24,12 +24,13 @@ The goal of this website is to:
 
 
 ### ✅TO DOs
-- Edit testimonial videos
-- `12/14` Individual Project pages'
-- Custom pixel icons
-- change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
-- make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.
-- change the headings in the project pages to white, It might be too distracting
-- see why falcon icon does not show on google
-- opitimize images for faster load times
-- add downloaded videos on the site for long term storage and backup incase a video is ever removed
+- [x] ~~Edit testimonial videos~~
+- [ ] `12/14` Individual Project pages'
+- [ ] Custom pixel icons
+- [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
+- [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
+- [ ] change the headings in the project pages to white, It might be too distracting
+- [ ] see why falcon icon does not show on google
+- [ ] opitimize images for faster load times
+- [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
+- [ ] change `footer` button colour to white
