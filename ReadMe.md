@@ -35,3 +35,6 @@ The goal of this website is to:
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
 - [x] ~~return to top button on all pages~~
+- [ ] make skip link smaller
+- [ ] fill out content on project pages
+- [ ] add the first draft of the meal shortfilm and the ideas docs
