@@ -22,7 +22,6 @@
 .text-primary {
     color: var(--light-green) !important;
     font-family: 'Forced Square', sans-serif;
-    font-weight: none;
 }
 
 .text-secondary {
