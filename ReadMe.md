@@ -37,5 +37,5 @@ The goal of this website is to:
 - [x] ~~return to top button on all pages~~
 - [ ] make skip link smaller
 - [ ] fill out content on project pages
-- [ ] add the first draft of the meal shortfilm and the ideas docs
+- [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
