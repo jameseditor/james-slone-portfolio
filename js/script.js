@@ -8,3 +8,10 @@ window.addEventListener('scroll', function () {
     }
 });
 
+
+
+
+
+
+// video 
+
