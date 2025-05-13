@@ -8,37 +8,36 @@
 
 /* Fonts  "what does this do?"*/
 @font-face {
-    font-family: 'Forced Square';
-    src: url('../fonts/forced-square.ttf') format('truetype');
+    font-family: 'forced-square';
+    src: url('/fonts/forced-square.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Cascadia Mono';
-    src: url('../fonts/CascadiaMonoPL-Regular.otf') format('truetype');
+    font-family: 'cascadia-mono';
+    src: url('/fonts/cascadia-mono-pl-regular.otf') format('truetype');
 }
 
 
 /* Utility Text Styles */
 .text-primary {
     color: var(--light-green) !important;
-    font-family: 'Forced Square', sans-serif;
+    font-family: 'forced-square', sans-serif;
 }
 
 .text-secondary {
 
     color: var(--white) !important;
-    font-family: 'Forced Square', sans-serif;
+    font-family: 'forced-square', sans-serif;
     font-weight: 700;
 }
 
 .text-info {
     color: var(--light-gray) !important;
-    font-family: 'Cascadia Mono', monospace;
+    font-family: 'cascadia-mono', monospace;
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 1.5rem;
     line-height: 1.5;
-    /* Improved readability */
 }
 
 .text-info-emphasis {
@@ -49,11 +48,11 @@
 
 /* Font Family Utility */
 .font-square {
-    font-family: 'Forced Square', sans-serif;
+    font-family: 'forced-square', sans-serif;
 }
 
 .font-mono {
-    font-family: 'Cascadia Mono', monospace;
+    font-family: 'cascadia-mono', monospace;
 }
 
 /* Typography Sizes */
@@ -91,7 +90,7 @@ html {
 body {
     background-color: var(--black);
     color: var(--white);
-    font-family: 'Cascadia Mono', monospace;
+    font-family: 'cascadia-mono', monospace;
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -129,7 +128,7 @@ a:hover {
 
 .breadcrumb {
     font-size: 16px;
-    font-family: 'Forced Square', sans-serif;
+    font-family: 'forced-square', sans-serif;
 }
 
 
