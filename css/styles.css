@@ -4,6 +4,7 @@
     --black: #141414;
     --black-secondary: #222222;
     --light-gray: #d1d1d1;
+    --dark-gray: #5b5b5b;
 }
 
 /* Fonts  "what does this do?"*/
@@ -36,6 +37,15 @@
     font-family: 'cascadia-mono', monospace;
     font-weight: 400;
     font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.text-muted {
+    color: var(--dark-gray) !important;
+    font-family: 'cascadia-mono', monospace;
+    font-weight: 400;
+    font-size: 0.8rem;
     margin-bottom: 1.5rem;
     line-height: 1.5;
 }

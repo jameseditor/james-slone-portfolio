@@ -39,3 +39,4 @@ The goal of this website is to:
 - [ ] fill out content on project pages
 - [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
+- [ ] make my resume into a page, make skiplinks to all the sections,
