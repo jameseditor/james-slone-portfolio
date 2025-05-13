@@ -38,3 +38,4 @@ The goal of this website is to:
 - [ ] make skip link smaller
 - [ ] fill out content on project pages
 - [ ] add the first draft of the meal shortfilm and the ideas docs
+- [ ] full screen videos when played
