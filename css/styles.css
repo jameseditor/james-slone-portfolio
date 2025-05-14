@@ -281,7 +281,12 @@ a[href="#top"]:hover {
 footer {
     background-color: var(--black-secondary);
     color: var(--white);
+    /* padding */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
 }
+
 
 .divider {
     width: 18%;
