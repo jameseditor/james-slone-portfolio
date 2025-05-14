@@ -400,3 +400,12 @@ iframe {
 .card-link:hover {
     background-color: var(--black-secondary);
 }
+
+
+
+
+/* containers for main content */
+.container-py {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

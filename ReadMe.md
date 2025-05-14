@@ -12,7 +12,10 @@ The goal of this website is to:
 
 - Provide potential clients, collaborators, and employers with easy access to his portfolio, resume, and testimonials.
 
-- Communicate his storytelling approach and creative values through visuals, layout, and copy.
+- Communicate his storytelling approach and creative values through visuals and layout.
+
+- Serves as a great backup code assignment, showcasing my web development skills in case I pursue a webdev job in the future.
+
 
 ### 📁 Key Sections
 
@@ -32,6 +35,9 @@ The goal of this website is to:
 - [ ] change the headings in the project pages to white, It might be too distracting
 - [ ] see why falcon icon does not show on google
 - [ ] Optimize images for faster load times
+  - [x] ~~video page~~
+  - [ ] design
+  - [ ] photo
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
 - [x] ~~return to top button on all pages~~
@@ -40,3 +46,5 @@ The goal of this website is to:
 - [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
 - [ ] make my resume into a page, make skiplinks to all the sections,
+- [ ] add more blitz brickz content 
+- [ ] fix `lego-city.html` nameing
