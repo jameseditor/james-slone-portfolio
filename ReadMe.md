@@ -48,3 +48,4 @@ The goal of this website is to:
 - [ ] make my resume into a page, make skiplinks to all the sections,
 - [ ] add more blitz brickz content 
 - [ ] fix `lego-city.html` nameing
+- [ ] add a change log to the site

@@ -413,3 +413,15 @@ iframe {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+/* contnet */
+
+/* images styling for project images */
+
+.image-style {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+    margin-bottom: 0.5rem;
+}
