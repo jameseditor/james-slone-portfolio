@@ -326,22 +326,6 @@ iframe {
 }
 
 /* video player */
-.video-modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 9999;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-modal.active {
-    display: flex;
-}
 
 .video-content {
     position: relative;
@@ -424,4 +408,12 @@ iframe {
     height: auto;
     border-radius: 0.375rem;
     margin-bottom: 0.5rem;
+}
+
+/* skip to top */
+
+.scroll-top-btn {
+    text-align: right;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
 }

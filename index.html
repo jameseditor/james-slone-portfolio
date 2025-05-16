@@ -9,7 +9,6 @@
     <!-- links -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <meta name="description"
         content="Discover the portfolio of James Slone – a creative video editor, photographer, and designer. See standout projects and learn how storytelling drives his visual work.">
@@ -91,8 +90,13 @@
                 <div class="col-md-4">
                     <a href="photos.html" class="text-decoration-none">
                         <article class="project-card p-4 hover-shadow">
-                            <img src="images/photography/Lego-star-wars-clone.jpg" loading="lazy"
-                                alt="Lego Clone Thumbnail" class="square-image">
+                            <img src="images/photography/brickworld/clone-blue-bg-lg.jpg" srcset="
+    images/photography/brickworld/clone-blue-bg-xsm.jpg 300w,
+    images/photography/brickworld/clone-blue-bg-sm.jpg 500w,
+    images/photography/brickworld/clone-blue-bg-md.jpg 800w,
+    images/photography/brickworld/clone-blue-bg-lg.jpg 1080w
+  " sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw" alt="Clone Blue Bg" loading="lazy"
+                                class="square-image" alt="Lego Clone Thumbnail">
                             <h3 class="project-title text-primary">Photography</h3>
                             <p class="project-description text-info">Freezing time so I can study it later.</p>
                         </article>
@@ -114,9 +118,8 @@
     </main>
 
     <!-- Scroll to Top Button -->
-    <div class="scroll-top-btn text-end pe-5 pb-3">
-        <a href="#top" class="text-white text-decoration-none" role="button" title="Back to top"
-            aria-label="Back to top">
+    <div class="scroll-top-btn">
+        <a href="#top" role="button" title="Back to top" aria-label="Back to top">
             <img src="images/Icons/Skip-to-top.png" loading="lazy" alt="Skip to top" title="Return to top">
         </a>
     </div>

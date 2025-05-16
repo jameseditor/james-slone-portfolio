@@ -46,6 +46,7 @@ The goal of this website is to:
 - [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
 - [ ] make my resume into a page, make skiplinks to all the sections,
-- [ ] add more blitz brickz content 
+- [x] ~~add more blitz brickz content~~ 
 - [ ] fix `lego-city.html` nameing
 - [ ] add a change log to the site
+- [ ] add Tremblant page content
