@@ -50,3 +50,4 @@ The goal of this website is to:
 - [ ] fix `lego-city.html` nameing
 - [ ] add a change log to the site
 - [ ] add Tremblant page content
+- [ ] Redesign the home page

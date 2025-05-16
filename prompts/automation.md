@@ -1,17 +1,12 @@
 # AI Prompt to Automate making my website
 
-
-
 **Images files:**
 [Insert file names here use `file-showcase-list.bat`]
-
-
 
 **File path:**
 [Insert file path here use]
 
 Use `srcset` to make `Img tags` responsive to layout and resolution
-
 
 Each Extension in the file name describes the width of the image
 
@@ -35,3 +30,5 @@ sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw"
  loading="lazy" class="image-style">
 
 
+
+Provide one html file
