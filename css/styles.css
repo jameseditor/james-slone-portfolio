@@ -5,6 +5,10 @@
     --black-secondary: #222222;
     --light-gray: #d1d1d1;
     --dark-gray: #888888;
+    /* menu bar */
+    /* checkpoint */
+    --bar-width: 24px;
+    --bar-height: 3px;
 }
 
 /* Fonts  "what does this do?"*/
@@ -156,18 +160,96 @@ a[href="#top"]:hover {
 /* Navbar */
 .navbar {
     background-color: var(--black) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 
-.navbar-toggler {
-    filter: invert(1);
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler img {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Hamburger Menu */
+.custom-toggler {
+    width: 40px;
+    height: 30px;
+    background: none;
     border: none;
+    position: relative;
+    padding: 0;
+    z-index: 1001;
+    /* Ensure it's on top */
 }
 
-.navbar .nav-link:hover,
-.navbar .navbar-brand:hover {
-    color: var(--light-green) !important;
+/* Base line styles */
+.toggler-line,
+.toggler-line::before,
+.toggler-line::after {
+    content: "";
+    display: block;
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--white);
+    position: absolute;
+    /* transition: all 0.1s ease; */
 }
+
+.toggler-line::before {
+    top: -8px;
+}
+
+.toggler-line::after {
+    top: 8px;
+}
+
+/* fix later */
+/* .custom-toggler:not(.collapsed) .toggler-line {
+    background-color: transparent;
+}
+
+.toggler-line::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.toggler-line::after {
+    transform: rotate(-45deg);
+    top: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Default navbar size */

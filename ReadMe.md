@@ -28,7 +28,7 @@ The goal of this website is to:
 
 ### ✅TO DOs
 - [x] ~~Edit testimonial videos~~
-- [ ] `12/14` Individual Project pages'
+- [x] ~~`14/14` Individual Project pages'~~
 - [ ] Custom pixel icons
 - [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
@@ -41,13 +41,14 @@ The goal of this website is to:
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
 - [x] ~~return to top button on all pages~~
-- [ ] make skip link smaller
-- [ ] fill out content on project pages
+- [x] ~~make skip link smaller~~
+- [x] ~~fill out content on project pages~~
 - [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
 - [ ] make my resume into a page, make skiplinks to all the sections,
 - [x] ~~add more blitz brickz content~~ 
 - [ ] fix `lego-city.html` nameing
 - [ ] add a change log to the site
-- [ ] add Tremblant page content
+- [x] ~~add Tremblant page content~~
 - [ ] Redesign the home page
+- [ ] fix nav moblie x ui element css
