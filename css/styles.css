@@ -4,7 +4,7 @@
     --black: #141414;
     --black-secondary: #222222;
     --light-gray: #d1d1d1;
-    --dark-gray: #5b5b5b;
+    --dark-gray: #888888;
 }
 
 /* Fonts  "what does this do?"*/
@@ -414,6 +414,12 @@ iframe {
 
 .scroll-top-btn {
     text-align: right;
-    padding-right: 3rem;
+    padding-right: 4rem;
     padding-bottom: 1.5rem;
+}
+
+/* button size */
+.scroll-top-btn img {
+    width: 50px;
+    height: auto;
 }
