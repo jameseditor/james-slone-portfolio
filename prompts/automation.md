@@ -29,6 +29,4 @@ sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw"
  alt="Description of the image"
  loading="lazy" class="image-style">
 
-
-
 Provide one html file
