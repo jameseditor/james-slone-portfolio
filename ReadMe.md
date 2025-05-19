@@ -29,7 +29,7 @@ The goal of this website is to:
 ### ✅TO DOs
 - [x] ~~Edit testimonial videos~~
 - [x] ~~`14/14` Individual Project pages'~~
-- [ ] Custom pixel icons
+- [x] ~~Custom pixel icons~~
 - [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
 - [ ] change the headings in the project pages to white, It might be too distracting
