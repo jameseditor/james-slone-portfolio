@@ -160,9 +160,6 @@ a[href="#top"]:hover {
 /* Navbar */
 .navbar {
     background-color: var(--black) !important;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 
@@ -508,5 +505,10 @@ iframe {
 /* button size */
 .scroll-top-btn img {
     width: 50px;
+    height: auto;
+}
+
+.social-icons img {
+    width: 40px;
     height: auto;
 }
