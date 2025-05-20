@@ -390,6 +390,14 @@ iframe {
     border-radius: 8px;
 }
 
+
+.bg-video {
+    pointer-events: none;
+    /* disables clicking */
+    user-select: none;
+    /* prevents text selection (just in case) */
+}
+
 .close-btn {
     position: absolute;
     top: -40px;
@@ -475,5 +483,10 @@ iframe {
 
 .social-icons img {
     width: 40px;
+    height: auto;
+}
+
+.bigger-img {
+    width: 50rem;
     height: auto;
 }
