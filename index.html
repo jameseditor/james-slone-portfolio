@@ -68,51 +68,57 @@
     </header>
 
     <!-- Main Content -->
-    <main class="container">
-        <section class="my-2" aria-labelledby="recent-projects-title">
-            <h2 class="text-primary text-center text-md-start" id="recent-projects-title">Recent Projects</h2>
+    <main class="container py-4">
+        <section class="recent-projects" aria-labelledby="recent-projects-title">
+            <h2 class="text-primary text-center text-md-start mb-4" id="recent-projects-title">
+                Recent Projects
+            </h2>
 
             <div class="row g-4">
                 <div class="col-md-4">
-                    <a href="videos.html" class="text-decoration-none">
-                        <article class="project-card p-4 hover-shadow">
+                    <a href="videos.html" class="text-decoration-none h-100 d-block">
+                        <article class="project-card h-100">
                             <img src="images/videos/levi-zadoff.jpg" loading="lazy"
                                 alt="Levi Zadoff Music Video Thumbnail" class="square-image">
-                            <h3 class="project-title text-primary">Video Production</h3>
-                            <p class="project-description text-info">Every cut has a purpose.
-                            </p>
+                            <div class="px-3">
+                                <h3 class="project-title text-primary">Video Production</h3>
+                                <p class="project-description text-info">Every cut has a purpose.</p>
+                            </div>
                         </article>
                     </a>
                 </div>
 
                 <div class="col-md-4">
-                    <a href="photos.html" class="text-decoration-none">
-                        <article class="project-card p-4 hover-shadow">
-                            <img src="images/photography/brickworld/clone-blue-bg-lg.jpg" srcset="
-            images/photography/brickworld/clone-blue-bg-xsm.jpg 300w,
-            images/photography/brickworld/clone-blue-bg-sm.jpg 500w,
-            images/photography/brickworld/clone-blue-bg-md.jpg 800w,
-            images/photography/brickworld/clone-blue-bg-lg.jpg 1080w
-        " sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw" alt="Clone Blue Bg" loading="lazy"
-                                class="square-image" alt="Lego Clone Thumbnail">
-                            <h3 class="project-title text-primary">Photography</h3>
-                            <p class="project-description text-info">Freezing time so I can study it later.</p>
+                    <a href="photos.html" class="text-decoration-none h-100 d-block">
+                        <article class="project-card h-100">
+                            <img src="images/photography/brickworld/clone-blue-bg-lg.jpg" srcset="images/photography/brickworld/clone-blue-bg-xsm.jpg 300w,
+                      images/photography/brickworld/clone-blue-bg-sm.jpg 500w,
+                      images/photography/brickworld/clone-blue-bg-md.jpg 800w,
+                      images/photography/brickworld/clone-blue-bg-lg.jpg 1080w"
+                                sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw"
+                                alt="Lego Clone Thumbnail" loading="lazy" class="square-image">
+                            <div class="px-3">
+                                <h3 class="project-title text-primary">Photography</h3>
+                                <p class="project-description text-info">Freezing time so I can study it later.</p>
+                            </div>
                         </article>
                     </a>
                 </div>
 
                 <div class="col-md-4">
-                    <a href="design.html" class="text-decoration-none">
-                        <article class="project-card p-4 hover-shadow">
-                            <img src="images/graphic-design/batman-posters/lego-batman-poster-4-sm.jpg" srcset="
-            images/graphic-design/batman-posters/lego-batman-poster-4-xsm.jpg 300w,
-            images/graphic-design/batman-posters/lego-batman-poster-4-sm.jpg 500w,
-            images/graphic-design/batman-posters/lego-batman-poster-4-md.jpg 800w,
-            images/graphic-design/batman-posters/lego-batman-poster-4-lg.jpg 1080w
-        " sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw" alt="Lego Batman Poster 4" loading="lazy"
-                                class="square-image">
-                            <h3 class="project-title text-primary">Graphic Design</h3>
-                            <p class="project-description text-info">Designs that hold attention.</p>
+                    <a href="design.html" class="text-decoration-none h-100 d-block">
+                        <article class="project-card h-100">
+                            <img src="images/graphic-design/batman-posters/lego-batman-poster-4-sm.jpg" srcset="images/graphic-design/batman-posters/lego-batman-poster-4-xsm.jpg 300w,
+                      images/graphic-design/batman-posters/lego-batman-poster-4-sm.jpg 500w,
+                      images/graphic-design/batman-posters/lego-batman-poster-4-md.jpg 800w,
+                      images/graphic-design/batman-posters/lego-batman-poster-4-lg.jpg 1080w"
+                                sizes="(max-width: 600px) 100vw, (max-width: 992px) 50vw, 33vw"
+                                alt="Lego Batman Poster 4" loading="lazy" class="square-image">
+
+                            <div class="px-3">
+                                <h3 class="project-title text-primary">Graphic Design</h3>
+                                <p class="project-description text-info">Designs that hold attention.</p>
+                            </div>
                         </article>
                     </a>
                 </div>
@@ -120,11 +126,14 @@
         </section>
     </main>
 
+
     <!-- Scroll to Top Button -->
-    <div class="scroll-top-btn">
-        <a href="#top" role="button" title="Back to top" aria-label="Back to top">
-            <img src="images/Icons/Skip-to-top.png" loading="lazy" alt="Skip to top" title="Return to top">
-        </a>
+    <div class="scroll-top-wrapper">
+        <div class="scroll-top-btn">
+            <a href="#top" role="button" title="Back to top" aria-label="Back to top">
+                <img src="images/Icons/Skip-to-top.png" loading="lazy" alt="Skip to top" title="Return to top">
+            </a>
+        </div>
     </div>
 
 
@@ -169,7 +178,7 @@
                 <div class="col-12 col-md-6 text-center text-md-end">
                     <div class="social-icons">
                         <a class="me-3" href="https://www.youtube.com/@TheJamesSlone" target="_blank">
-                            <img src="images/Icons/youtube.png" loading="lazy" alt=""></a>
+                            <img src="images/Icons/youtube.png" loading="lazy" alt="" title="Youtube"></a>
                         <a class="me-3" href="https://www.instagram.com/thejamesslone" target="_blank"
                             title="Instagram"><img src="images/Icons/Instagram.png" loading="lazy" alt=""></a>
                         <a class="me-3" href="https://www.linkedin.com/in/james-slone-4034702b4/" target="_blank"
