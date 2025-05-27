@@ -33,10 +33,10 @@ The goal of this website is to:
 - [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
 - [ ] change the headings in the project pages to white, It might be too distracting
-- [ ] see why falcon icon does not show on google
+- [ ] change background on falcon icon to black to better reflect the brand
 - [ ] Optimize images for faster load times
   - [x] ~~video page~~
-  - [ ] design
+  - [x] ~~design~~
   - [ ] photo
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
@@ -45,9 +45,10 @@ The goal of this website is to:
 - [x] ~~fill out content on project pages~~
 - [x] ~~add the first draft of the meal shortfilm and the ideas docs~~
 - [ ] full screen videos when played
-- [ ] make my resume into a page, make skiplinks to all the sections,
+- [x] ~~make my resume into a page, make skiplinks to all the sections,~~
+- does not need skiplinks too short
 - [x] ~~add more blitz brickz content~~ 
-- [ ] fix `lego-city.html` nameing
+- [x] ~~fix `lego-city.html` nameing~~
 - [ ] add a change log to the site
 - [x] ~~add Tremblant page content~~
 - [ ] Redesign the home page
