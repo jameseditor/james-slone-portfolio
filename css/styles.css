@@ -321,23 +321,23 @@ footer {
 
     0%,
     100% {
-        transform: translate(2);
+        transform: translate(0);
         filter: none;
     }
 
     20%,
     60% {
-        transform: translate(-1px, 2px) skew(10%);
-        transform: scale(1.1);
+        transform: translate(-1px, 2px) skew(10deg) scale(1.1);
         filter: drop-shadow(2px 0 var(--light-green)) drop-shadow(-2px 0 var(--light-green));
     }
 
     40%,
     80% {
-        transform: translate(1px, -2px) skew(20%);
+        transform: translate(1px, -2px) skew(20deg);
         filter: drop-shadow(-2px 0 var(--light-green)) drop-shadow(2px 0 var(--dark-gray));
     }
 }
+
 
 .social-icons a:hover img {
     animation: simpleGlitch .4s ease-in;
@@ -366,7 +366,6 @@ iframe {
     max-width: 500px;
     /* changes video size */
     margin: 0 auto;
-    border-radius: none;
 }
 
 

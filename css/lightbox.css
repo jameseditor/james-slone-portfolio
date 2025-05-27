@@ -1,3 +1,13 @@
+:root {
+  --light-green: #85c55d;
+  --white: #ffffff;
+  --black: #141414;
+  --black-secondary: #222222;
+  --light-gray: #d1d1d1;
+  --dark-gray: #888888;
+}
+
+
 body.lb-disable-scrolling {
   overflow: hidden;
 }
@@ -7,7 +17,7 @@ body.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
+  background-color: var(--black);
   opacity: 0.8;
   display: none;
 }
@@ -19,7 +29,6 @@ body.lb-disable-scrolling {
   z-index: 10000;
   text-align: center;
   line-height: 0;
-  font-weight: normal;
   outline: none;
 }
 
@@ -31,7 +40,7 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 4px solid var(--white);
 }
 
 .lightbox a img {
@@ -47,7 +56,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: var(--white);
 }
 
 .lb-outerContainer:after {
@@ -115,6 +124,10 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+
+
+
+
 .lb-nav a.lb-next {
   width: 64%;
   right: 0;
@@ -147,7 +160,7 @@ body.lb-disable-scrolling {
 
 .lb-data {
   padding: 0 4px;
-  color: #ccc;
+  color: var(--dark-gray);
 }
 
 .lb-data .lb-details {
@@ -164,7 +177,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption a {
-  color: #4ae;
+  color: var(--light-green);
 }
 
 .lb-data .lb-number {
@@ -172,7 +185,7 @@ body.lb-disable-scrolling {
   clear: left;
   padding-bottom: 1em;
   font-size: 12px;
-  color: #999999;
+  color: var(--light-gray);
 }
 
 .lb-data .lb-close {
