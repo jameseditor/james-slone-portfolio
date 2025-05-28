@@ -113,22 +113,6 @@ a:hover {
 }
 
 
-
-
-
-@media (max-width: 768px) {
-    .overlay h1 {
-        font-size: 1rem;
-    }
-
-    .overlay p {
-        font-size: 1rem;
-    }
-
-    .bg-video {}
-}
-
-
 .bg-video-cropped {
     width: 640px;
     /* or any fixed size */
@@ -432,6 +416,45 @@ iframe {
     /* changes video size */
     margin: 0 auto;
 }
+
+/* video icon player */
+
+.video-thumbnail {
+    display: inline-block;
+    position: relative;
+}
+
+.video-thumbnail img:first-child {
+    transition: opacity 0.4s ease;
+}
+
+.video-thumbnail .play-icon {
+    width: 60px;
+    /* Adjust size if needed */
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: filter 0.3s ease;
+}
+
+/* Hover Effects */
+.video-thumbnail:hover img:first-child {
+    opacity: 0.7;
+    /* Slight fade on thumbnail */
+}
+
+.video-thumbnail:hover .play-icon {
+    filter: brightness(0) saturate(100%) invert(78%) sepia(15%) saturate(872%) hue-rotate(48deg) brightness(94%) contrast(88%);
+    /* This filter turns the icon green without needing a green SVG */
+}
+
+
+
+
+
+
 
 /* video player */
 
