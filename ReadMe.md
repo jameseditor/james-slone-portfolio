@@ -37,7 +37,7 @@ The goal of this website is to:
 - [ ] Optimize images for faster load times
   - [x] ~~video page~~
   - [x] ~~design~~
-  - [ ] photo
+  - [x] ~~photo~~
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
 - [ ] change `footer` button colour to white
 - [x] ~~return to top button on all pages~~

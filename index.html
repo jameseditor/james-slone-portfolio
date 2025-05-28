@@ -53,22 +53,39 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-section text-center">
-        <div class="container py-5">
-            <h1 class="display-4 text-primary">Your Story starts here</h1>
-            <p class="lead text-info">Creating stories through motion, light, and design.</p>
 
-            <div class="video-wrapper-primary">
-                <iframe class="player ratio-9-16" src="https://www.youtube.com/embed/P7x0dCDHdek" loading="lazy"
-                    title="Meet James: Professional Video Editor"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+
+    <header class="hero-section position-relative text-white text-center">
+        <video autoplay muted loop playsinline class="bg-video" poster="fallback.jpg">
+            <source src="videos/james-editing.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="overlay d-flex flex-column justify-content-center align-items-center text-center">
+            <h1 class="text-primary">Your Story Starts Here</h1>
+            <p class="lead">Creating stories through motion, light, and design.</p>
+            <a href="#recent-projects" rel="noopener" class="btn btn-primary"> My Projects</a>
         </div>
     </header>
 
+
+
+    <section class="text-center mt-5">
+
+        <h1 class="text-primary display-5">What is a James Slone?</h1>
+
+        <div class="video-wrapper-primary">
+            <iframe class="player  ratio-9-16" src="https://www.youtube.com/embed/P7x0dCDHdek" loading="lazy"
+                title="Meet James: Professional Video Editor"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
     <!-- Main Content -->
-    <main class="container py-4">
+
+    <main class="container py-5" id="recent-projects">
         <section class="recent-projects" aria-labelledby="recent-projects-title">
             <h2 class="text-primary text-center text-md-start mb-4" id="recent-projects-title">
                 Recent Projects

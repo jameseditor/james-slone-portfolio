@@ -85,6 +85,60 @@ a:hover {
 }
 
 
+/* header */
+.hero-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    opacity: 20%;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 2rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 2rem;
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+}
+
+
+.bg-video-cropped {
+    width: 640px;
+    /* or any fixed size */
+    height: 360px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    /* center horizontally */
+}
+
+
+
+
+
 /* bread crumb */
 
 .breadcrumb-item+.breadcrumb-item::before {
