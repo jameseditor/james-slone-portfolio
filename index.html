@@ -55,25 +55,37 @@
     <!-- Hero Section -->
 
 
-    <header class="hero-section position-relative text-white text-center">
-        <video autoplay muted loop playsinline class="bg-video" poster="fallback.jpg">
-            <source src="videos/james-editing.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <header class="hero-section position-relative py-5 text-center">
 
-        <div class="overlay d-flex flex-column justify-content-center align-items-center text-center">
-            <h1 class="text-primary">Your Story Starts Here</h1>
-            <p class="lead">Creating stories through motion, light, and design.</p>
-            <a href="#recent-projects" rel="noopener" class="btn btn-primary"> My Projects</a>
+        <div class="video-wrapper position-relative  overflow-hidden">
+            <video autoplay muted loop playsinline class="w-100 rounded hero-video">
+                <source src="videos/Hero banner_5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Text Overlay -->
+            <!-- position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center -->
+
+            <div
+                class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="text-primary display-5">Your Story Starts Here</h1>
+                <p class="lead">Creating stories through motion, light, and design.</p>
+                <a href="#recent-projects" class="btn btn-primary mb-5">My Projects</a>
+            </div>
+
+
         </div>
+
     </header>
 
 
 
-    <section class="text-center mt-5">
 
-        <h1 class="text-primary display-5">What is a James Slone?</h1>
+    <section class="text-center">
 
+        <div class="mb-3">
+            <h2 class="text-primary display-5">What is a James Slone?</h2>
+        </div>
         <div class="video-wrapper-primary">
             <iframe class="player  ratio-9-16" src="https://www.youtube.com/embed/P7x0dCDHdek" loading="lazy"
                 title="Meet James: Professional Video Editor"
