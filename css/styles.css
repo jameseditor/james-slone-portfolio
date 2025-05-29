@@ -203,13 +203,13 @@ a:hover {
     border: 1px solid var(--light-gray);
 }
 
-/* .dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item {
     background-color: transparent;
-} */
+}
 
-/* .dropdown-item {
+.dropdown-item {
     color: var(--white);
-} */
+}
 
 .dropdown-item:hover {
     background-color: var(--black) !important;
