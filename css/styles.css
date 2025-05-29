@@ -1,3 +1,13 @@
+/* ==========================================================================
+   Main Stylesheet - styles.css
+   Author: James
+   Description: Contains global styles, components, and layout rules
+========================================================================== */
+
+/* ------------------------------------
+   ROOT VARIABLES
+------------------------------------ */
+
 :root {
     --light-green: #85c55d;
     --white: #ffffff;
@@ -6,12 +16,14 @@
     --light-gray: #d1d1d1;
     --dark-gray: #888888;
     /* menu bar */
-    /* checkpoint */
     --bar-width: 24px;
     --bar-height: 3px;
 }
 
-/* Fonts  "what does this do?"*/
+/* ------------------------------------
+   CUSTOM FONTS
+------------------------------------ */
+
 @font-face {
     font-family: 'forced-square';
     src: url('/fonts/forced-square.ttf') format('truetype');
@@ -23,7 +35,9 @@
 }
 
 
-/* Utility Text Styles */
+/* ------------------------------------
+   TYPOGRAPHY STYLES
+------------------------------------ */
 .text-primary {
     color: var(--light-green) !important;
     font-family: 'forced-square', sans-serif;
@@ -54,16 +68,28 @@
     line-height: 1.5;
 }
 
+.text-light {
+    color: var(--white) !important;
+    font-family: 'cascadia-mono', monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+
+
 .text-info-emphasis {
     color: var(--light-green) !important;
 
 }
 
-/* Base Styles */
+/* ------------------------------------
+   BASE ELEMENT STYLES
+------------------------------------ */
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-    /* Base size for consistent rem scaling */
 }
 
 body {
@@ -84,84 +110,25 @@ a:hover {
     color: var(--light-green) !important;
 }
 
+/* containers for main content */
+.container-py {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
-/* header */
-.hero-section {
+/* Utility Classes */
+.bg-primary {
+    background-color: var(--black) !important;
+}
 
-    position: relative;
+.overflow {
     overflow: hidden;
 }
 
-.hero-video {
-    opacity: 70%;
-    overflow: hidden;
-}
+/* ------------------------------------
+   HEADER / HERO SECTION
+------------------------------------ */
 
-
-
-/* not in use */
-.bg-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    min-height: 30vh;
-    opacity: 20%;
-    overflow: hidden;
-}
-
-
-.bg-video-cropped {
-    width: 640px;
-    /* or any fixed size */
-    height: 360px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
-    /* center horizontally */
-}
-
-
-
-
-
-/* bread crumb */
-
-.breadcrumb-item+.breadcrumb-item::before {
-    color: var(--white);
-}
-
-.active {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
-    text-decoration-style: dashed;
-    color: var(--light-green) !important;
-}
-
-.breadcrumb-item :hover {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
-}
-
-.breadcrumb {
-    font-size: 16px;
-    font-family: 'forced-square', sans-serif;
-}
-
-a[href="#top"] {
-    font-size: 2rem;
-    transition: opacity 0.3s ease;
-}
-
-a[href="#top"]:hover {
-    opacity: 0.7;
-}
-
-/* Navbar */
 .navbar {
     background-color: var(--black) !important;
 }
@@ -228,39 +195,99 @@ a[href="#top"]:hover {
     padding-bottom: 0.5rem;
 }
 
-/* Dropdown */
+/* ------------------------------------
+   DROPDOWN MENU
+------------------------------------ */
 .dropdown-menu {
     background-color: var(--black);
     border: 1px solid var(--light-gray);
 }
 
-
-
-
-.dropdown-menu .dropdown-item {
+/* .dropdown-menu .dropdown-item {
     background-color: transparent;
-}
+} */
 
-.dropdown-item {
+/* .dropdown-item {
     color: var(--white);
-}
+} */
 
 .dropdown-item:hover {
     background-color: var(--black) !important;
     color: var(--light-green) !important;
 }
 
-/* Hero Section */
-.hero-section {
-    background-color: var(--black);
-    color: var(--white);
-    padding: 2rem 1rem;
+/* ------------------------------------
+   HERO SECTION TEXT
+------------------------------------ */
+.hero-video {
+    width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
 }
 
-.hero-section h1 {
-    font-size: 3rem;
-    font-weight: 700;
+.hero-banner {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
+
+@media (min-width: 650px) {
+    .custom-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-video {
+        opacity: 20%;
+    }
+}
+
+/* ------------------------------------
+   BREADCRUMB STYLING
+------------------------------------ */
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: var(--white);
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-style: dashed;
+    color: var(--light-green) !important;
+}
+
+.breadcrumb-item :hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.breadcrumb {
+    font-size: 16px;
+    font-family: 'forced-square', sans-serif;
+}
+
+a[href="#top"] {
+    font-size: 2rem;
+    transition: opacity 0.3s ease;
+}
+
+a[href="#top"]:hover {
+    opacity: 0.7;
+}
+
+/* ------------------------------------
+   PROJECT CARD
+------------------------------------ */
 
 .project-card {
 
@@ -279,14 +306,11 @@ a[href="#top"]:hover {
     background-color: var(--black-secondary);
 }
 
-
-
 .text-card {
     border-color: var(--light-green);
     background-color: var(--black-secondary);
     padding: 1rem;
     border-radius: 0.3rem;
-    border: 3px solid transparent;
 }
 
 .square-image {
@@ -298,7 +322,41 @@ a[href="#top"]:hover {
     padding: 0.5rem;
 }
 
-/* Buttons */
+.card {
+    background-color: var(--black);
+    color: var(--white) !important;
+}
+
+.card:hover {
+    background-color: var(--black-secondary);
+}
+
+/* ------------------------------------
+   PROJECT CONTENT
+------------------------------------ */
+
+.image-style {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.bigger-img {
+    width: 50rem;
+    height: auto;
+}
+
+
+/* About page */
+.profile-pic {
+    max-width: 100%;
+    width: 450px;
+}
+
+/* ------------------------------------
+   BUTTON STYLES
+------------------------------------ */
+
 .btn-primary {
     background-color: var(--black) !important;
     border: 2px solid var(--light-gray);
@@ -306,7 +364,6 @@ a[href="#top"]:hover {
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
     transform: scale(1);
-    /* base scale */
 }
 
 .btn-primary:hover {
@@ -334,15 +391,44 @@ a[href="#top"]:hover {
     color: var(--white) !important;
     border-color: var(--white) !important;
     transform: scale(1.04);
-
 }
 
+/* ------------------------------------
+    SKIP LINK TO TOP
+------------------------------------ */
+.scroll-top-btn img {
+    transition: transform 0.3s ease;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
-/* Footer */
+.scroll-top-btn a:hover img {
+    transform: translateY(-6px);
+}
+
+/* Parent wrapper needed */
+.scroll-top-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Your existing styles */
+.scroll-top-btn {
+    margin: 1rem;
+    padding: 1rem;
+    padding-right: 2rem;
+    display: inline-block;
+}
+
+/* ------------------------------------
+   FOOTER
+------------------------------------ */
+
 footer {
     background-color: var(--black-secondary);
     color: var(--white);
-    /* padding */
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-top: 3rem;
@@ -354,11 +440,11 @@ footer {
     opacity: 1;
 }
 
-.social-icons a {
-    padding: 1rem;
-}
 
-/* social icons */
+
+/* ------------------------------------
+   SOCIAL ICONS
+------------------------------------ */
 @keyframes simpleGlitch {
 
     0%,
@@ -369,23 +455,33 @@ footer {
 
     20%,
     60% {
-        transform: translate(-1px, 2px) skew(10deg) scale(1.1);
+        transform: translate(-1px, 2px) skew(5deg) scale(1.1);
         filter: drop-shadow(2px 0 var(--light-green)) drop-shadow(-2px 0 var(--light-green));
     }
 
     40%,
     80% {
-        transform: translate(1px, -2px) skew(20deg);
+        transform: translate(1px, -2px) skew(10deg);
         filter: drop-shadow(-2px 0 var(--light-green)) drop-shadow(2px 0 var(--dark-gray));
     }
 }
-
 
 .social-icons a:hover img {
     animation: simpleGlitch .4s ease-in;
 }
 
-/* Videos */
+.social-icons img {
+    width: 40px;
+    height: auto;
+}
+
+.social-icons a {
+    padding: 1rem;
+}
+
+/* ------------------------------------
+   VIDEOS
+------------------------------------ */
 iframe {
     border-radius: 0.3rem;
 }
@@ -450,12 +546,6 @@ iframe {
     /* This filter turns the icon green without needing a green SVG */
 }
 
-
-
-
-
-
-
 /* video player */
 
 .video-content {
@@ -489,86 +579,4 @@ iframe {
     background: none;
     border: none;
     cursor: pointer;
-}
-
-/* Utility Classes */
-.bg-primary {
-    background-color: var(--black) !important;
-}
-
-.overflow {
-    overflow: hidden;
-}
-
-/* About page */
-
-.profile-pic {
-    max-width: 100%;
-    width: 450px;
-}
-
-/* projects page */
-.card {
-    background-color: var(--black);
-    color: var(--white) !important;
-}
-
-.card:hover {
-    background-color: var(--black-secondary);
-
-}
-
-
-/* containers for main content */
-.container-py {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-
-/* contnet */
-
-/* images styling for project images */
-
-.image-style {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
-}
-
-/* skip to top */
-.scroll-top-btn img {
-    transition: transform 0.3s ease;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.scroll-top-btn a:hover img {
-    transform: translateY(-6px);
-}
-
-/* Parent wrapper needed */
-.scroll-top-wrapper {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Your existing styles */
-.scroll-top-btn {
-    margin: 1rem;
-    padding: 1rem;
-    padding-right: 2rem;
-    display: inline-block;
-}
-
-.social-icons img {
-    width: 40px;
-    height: auto;
-}
-
-.bigger-img {
-    width: 50rem;
-    height: auto;
 }
