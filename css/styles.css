@@ -195,6 +195,22 @@ a:hover {
     padding-bottom: 0.5rem;
 }
 
+/* icons */
+
+.img-icon {
+    width: 30px;
+    /* or try 12px for extra small */
+    height: 30px;
+    /* keep it square */
+    object-fit: contain;
+    /* avoids distortion */
+    vertical-align: middle;
+    /* aligns with text */
+    margin-right: 6px;
+    /* space between icon and "About" */
+}
+}
+
 /* ------------------------------------
    DROPDOWN MENU
 ------------------------------------ */
@@ -577,4 +593,9 @@ iframe {
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.object {
+    color: #85c55d;
+    background-color: #85c55d;
 }

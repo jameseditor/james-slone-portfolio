@@ -1,6 +1,3 @@
-
-
-
 const videoFrame = document.getElementById('videoFrame');
 const videoModal = document.getElementById('videoModal');
 let currentVideoURL = "";
