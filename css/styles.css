@@ -369,6 +369,45 @@ a[href="#top"]:hover {
     width: 450px;
 }
 
+
+
+/* portfolio page */
+.swatch {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 0.4rem;
+    border: solid 2px;
+}
+
+.swatch-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.label {
+    margin-top: 1rem;
+}
+
+
+/* design page */
+.card-img-fixed {
+    height: 200px;
+    /* or whatever height fits your layout */
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+
+
 /* ------------------------------------
    BUTTON STYLES
 ------------------------------------ */
