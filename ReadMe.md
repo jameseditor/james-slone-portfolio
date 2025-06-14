@@ -54,4 +54,6 @@ The goal of this website is to:
 - [ ] Redesign the home page
 - [ ] fix nav moblie x ui element css
 - [ ] every video will be a image with a play button on it, and you can click it to play it, it will display a pop up and lower the opacity of the background
-- [ ] make sections for `Generic Stud` and `republic stud` to show off my best videos form them so show I have been working with them for a long time
+- [x] ~~make sections for `Generic Stud` and `republic stud` to show off my best videos form them so show I have been working with them for a long time~~
+- [ ] add keyboard shortcuts to I can navigate my site faster
+- [ ] Create a colection of short films I have made
