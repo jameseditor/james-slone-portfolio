@@ -32,14 +32,11 @@ The goal of this website is to:
 - [x] ~~Custom pixel icons~~
 - [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
-- [ ] change the headings in the project pages to white, It might be too distracting
-- [ ] change background on falcon icon to black to better reflect the brand
 - [ ] Optimize images for faster load times
   - [x] ~~video page~~
   - [x] ~~design~~
   - [x] ~~photo~~
 - [ ] add downloaded videos on the site for long term storage and backup incase a video is ever removed
-- [ ] change `footer` button colour to white
 - [x] ~~return to top button on all pages~~
 - [x] ~~make skip link smaller~~
 - [x] ~~fill out content on project pages~~
@@ -57,3 +54,4 @@ The goal of this website is to:
 - [x] ~~make sections for `Generic Stud` and `republic stud` to show off my best videos form them so show I have been working with them for a long time~~
 - [ ] add keyboard shortcuts to I can navigate my site faster
 - [ ] Create a colection of short films I have made
+- [ ] make a quickswiter with `ctrl + k` like discord

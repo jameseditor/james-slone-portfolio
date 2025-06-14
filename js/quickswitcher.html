@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Switcher</title>
+</head>
+
+<body>
+    <!-- Command Palette Modal -->
+    <div class="modal fade" id="commandModal" tabindex="-1" aria-labelledby="commandModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-body">
+                    <input type="text" id="commandSearch" class="form-control bg-dark text-light"
+                        placeholder="Type a command..." autofocus>
+                    <ul id="commandList" class="list-group list-group-flush mt-2">
+                        <li class="list-group-item bg-dark text-light" data-url="index.html">Home</li>
+                        <li class="list-group-item bg-dark text-light" data-url="videos.html">Video Production</li>
+                        <li class="list-group-item bg-dark text-light" data-url="photos.html">Photography</li>
+                        <li class="list-group-item bg-dark text-light" data-url="design.html">Graphic Design</li>
+                        <li class="list-group-item bg-dark text-light" data-url="about.html">About</li>
+                        <li class="list-group-item bg-dark text-light" data-url="resume.html">Resume</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
