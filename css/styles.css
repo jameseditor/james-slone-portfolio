@@ -393,6 +393,25 @@ a[href="#top"]:hover {
 }
 
 
+
+.changelog-item {
+    background-color: var(--black-secondary);
+    /* Bootstrap's bg-dark */
+    color: var(--white);
+    /* Bootstrap's text-info */
+    border: 1px solid var(--light-gray);
+    /* Bootstrap's border-secondary */
+    border-radius: 0.375rem;
+    /* Optional: match list-group-item rounding */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
+
+
+
+
+
 /* design page */
 .card-img-fixed {
     height: 200px;
