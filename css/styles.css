@@ -650,3 +650,19 @@ kbd {
     background-color: var(--black-secondary);
     color: var(--white);
 }
+
+
+/* links page */
+.links-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.link-btn {
+    padding: 0.75rem 1rem;
+    font-size: 1.05rem;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}

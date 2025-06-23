@@ -51,6 +51,7 @@ document.addEventListener("keydown", async e => {
             case "a": window.location.href = "about.html"; break;
             case "h": window.location.href = "index.html"; break;
             case "r": window.location.href = "resume.html"; break;
+            case "l": window.location.href = "links.html"; break;
         }
         lastKey = null;
     } else {
