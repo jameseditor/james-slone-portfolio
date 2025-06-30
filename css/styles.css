@@ -422,6 +422,14 @@ a[href="#top"]:hover {
 
 
 
+/* new banner */
+
+
+.bg-success {
+
+    color: var(--light-green);
+    background: var(--black-secondary) !important;
+}
 
 
 

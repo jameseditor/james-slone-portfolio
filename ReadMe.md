@@ -55,3 +55,4 @@ The goal of this website is to:
 - [ ] add keyboard shortcuts to I can navigate my site faster
 - [ ] Create a colection of short films I have made
 - [ ] make a quickswiter with `ctrl + k` like discord
+- [ ] make page all about my youtube breakdowns, and show some of my best videos, link to my social media.
