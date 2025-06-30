@@ -426,13 +426,9 @@ a[href="#top"]:hover {
 
 
 .bg-success {
-
-    color: var(--light-green);
+    color: var(--light-green) !important;
     background: var(--black-secondary) !important;
 }
-
-
-
 
 /* ------------------------------------
    BUTTON STYLES
