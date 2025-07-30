@@ -97,6 +97,7 @@ class SpecialFooter extends HTMLElement {
                             <li class="nav-item"><a class="nav-link" href="videos.html">Video</a></li>
                             <li class="nav-item"><a class="nav-link" href="design.html"> Design</a></li>
                             <li class="nav-item"><a class="nav-link" href="photos.html">Photo</a></li>
+                            <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
                         </ul>
                     </nav>
                 </div>
