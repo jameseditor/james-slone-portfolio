@@ -32,7 +32,7 @@ The goal of this website is to:
 - [x] ~~Custom pixel icons~~
 - [ ] change folder stucture to make it `www.thejamesslone.com/videos/the-meal`
 - [x] ~~make the project page like the youtube page, Hovering over the thumbnail will highlight it, In clicking anywhere around it will bring you to where you want to go.~~
-- [ ] Optimize images for faster load times
+- [x] ~~Optimize images for faster load times~~
   - [x] ~~video page~~
   - [x] ~~design~~
   - [x] ~~photo~~
@@ -46,7 +46,7 @@ The goal of this website is to:
 - does not need skiplinks too short
 - [x] ~~add more blitz brickz content~~ 
 - [x] ~~fix `lego-city.html` nameing~~
-- [ ] add a change log to the site
+- [x] ~~add a change log to the site~~
 - [x] ~~add Tremblant page content~~
 - [ ] Redesign the home page
 - [ ] fix nav moblie x ui element css
@@ -56,3 +56,4 @@ The goal of this website is to:
 - [ ] Create a colection of short films I have made
 - [ ] make a quickswiter with `ctrl + k` like discord
 - [ ] make page all about my youtube breakdowns, and show some of my best videos, link to my social media.
+- [x] ~~Create shorts page~~
