@@ -137,5 +137,25 @@ class SpecialFooter extends HTMLElement {
 }
 
 
+
+class SpecialGoogleAnalytics extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYJX725RRW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EYJX725RRW');
+</script>
+
+        `
+    }
+}
+
+
 customElements.define(`special-header`, SpecialHeader)
 customElements.define(`special-footer`, SpecialFooter)
+customElements.define(`special-google-analytics`, SpecialGoogleAnalytics)
