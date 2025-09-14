@@ -23,7 +23,7 @@ class SpecialHeader extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand text-secondary" href="./index">James Slone</a>
+            <a class="navbar-brand text-secondary" href="./">James Slone</a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
