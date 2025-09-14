@@ -23,7 +23,7 @@ class SpecialHeader extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand text-secondary" href="index.html">James Slone</a>
+            <a class="navbar-brand text-secondary" href="./index">James Slone</a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,18 +39,18 @@ class SpecialHeader extends HTMLElement {
                             <i class="fa-solid fa-briefcase"></i> Work
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end bg-black border-0">
-                            <li><a class="dropdown-item" href="videos.html"><i class="fa-solid fa-video"></i>
+                            <li><a class="dropdown-item" href="./videos"><i class="fa-solid fa-video"></i>
                                     Video Production</a></li>
-                            <li><a class="dropdown-item " href="photos.html"><i class="fa-solid fa-camera"></i>
+                            <li><a class="dropdown-item " href="./photos"><i class="fa-solid fa-camera"></i>
                                     Photography</a></li>
-                            <li><a class="dropdown-item" href="design.html"><i class="fa-solid fa-pen-nib"></i> Graphic
+                            <li><a class="dropdown-item" href="./design"><i class="fa-solid fa-pen-nib"></i> Graphic
                                     Design</a></li>
                         </ul>
                     </li>
 
                     <!-- About Link -->
                     <li class="nav-item">
-                        <a class="nav-link px-3" href="about.html"><i class="fa-solid fa-user"></i>
+                        <a class="nav-link px-3" href="./about"><i class="fa-solid fa-user"></i>
 
                             About</a>
                     </li>
@@ -92,12 +92,12 @@ class SpecialFooter extends HTMLElement {
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <nav>
                         <ul class="nav flex-row justify-content-center justify-content-md-start flex-wrap">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="videos.html">Video</a></li>
-                            <li class="nav-item"><a class="nav-link" href="design.html"> Design</a></li>
-                            <li class="nav-item"><a class="nav-link" href="photos.html">Photo</a></li>
-                            <li class="nav-item"><a class="nav-link" href="learn.html">Learn</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./index">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./videos">Video</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./design"> Design</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./photos">Photo</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./learn">Learn</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -122,10 +122,10 @@ class SpecialFooter extends HTMLElement {
                         <p class="mb-0">© James Slone 2025</p>
                     </div>
                     <div class="col-12 col-md-auto">
-                        <a href="terms.html" class="text-info">Terms of Service</a>
+                        <a href="./terms" class="text-info">Terms of Service</a>
                     </div>
                     <div class="col-12 col-md-auto">
-                        <a href="special-thanks.html" class="text-info">Special Thanks</a>
+                        <a href="./special-thanks" class="text-info">Special Thanks</a>
                     </div>
 
                 </div>
