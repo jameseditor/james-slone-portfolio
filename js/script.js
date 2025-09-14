@@ -92,7 +92,7 @@ class SpecialFooter extends HTMLElement {
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <nav>
                         <ul class="nav flex-row justify-content-center justify-content-md-start flex-wrap">
-                            <li class="nav-item"><a class="nav-link" href="./index">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="./about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="./videos">Video</a></li>
                             <li class="nav-item"><a class="nav-link" href="./design"> Design</a></li>
