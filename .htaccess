@@ -1,4 +1,4 @@
-<!-- # mod_rewrite starts here
+# mod_rewrite starts here
 
 RewriteEngine on
 
@@ -14,4 +14,4 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
 
-# From this video - https://youtu.be/-6LyG9I-FPc -->
+# From this video - https://youtu.be/-6LyG9I-FPc
