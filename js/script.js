@@ -159,3 +159,27 @@ class SpecialGoogleAnalytics extends HTMLElement {
 customElements.define(`special-header`, SpecialHeader)
 customElements.define(`special-footer`, SpecialFooter)
 customElements.define(`special-google-analytics`, SpecialGoogleAnalytics)
+
+
+
+
+// copy button
+document.querySelectorAll(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+        const value = btn.getAttribute("data-copy");
+        try {
+            await navigator.clipboard.writeText(value);
+            const prev = btn.textContent;
+            btn.textContent = "Copied!";
+            btn.classList.remove("btn-outline-light");
+            btn.classList.add("btn-success");
+            setTimeout(() => {
+                btn.textContent = prev;
+                btn.classList.remove("btn-success");
+                btn.classList.add("btn-outline-light");
+            }, 1500);
+        } catch (err) {
+            alert("Copy failed — please copy manually.");
+        }
+    });
+});
