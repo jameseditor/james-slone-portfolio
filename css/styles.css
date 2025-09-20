@@ -621,6 +621,15 @@ iframe {
     /* This filter turns the icon green without needing a green SVG */
 }
 
+
+/* tiktoks */
+
+.tiktok-embed {
+    color: #141414 !important;
+    background: #141414 !important;
+}
+
+
 /* video player */
 
 .video-content {
