@@ -58,3 +58,4 @@ The goal of this website is to:
 - [ ] make page all about my youtube breakdowns, and show some of my best videos, link to my social media.
 - [x] ~~Create shorts page~~
 - [ ] create a page that has all the timelines I have worked on
+- [ ] Use hugo to make editing the site easier.
