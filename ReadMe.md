@@ -59,3 +59,4 @@ The goal of this website is to:
 - [x] ~~Create shorts page~~
 - [ ] create a page that has all the timelines I have worked on
 - [ ] Use hugo to make editing the site easier.
+- [ ] redirect the user to a different page if they go to, thejamesslone.com/shortcuts
