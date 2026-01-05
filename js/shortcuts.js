@@ -45,7 +45,7 @@ document.addEventListener("keydown", async e => {
     // g + key for navigation
     if (lastKey === "g") {
         switch (key) {
-            case "v": window.location.href = "videos.html"; break;
+            case "v": window.location.href = "videos"; break;
             case "p": window.location.href = "photos.html"; break;
             case "d": window.location.href = "design.html"; break;
             case "a": window.location.href = "about.html"; break;
