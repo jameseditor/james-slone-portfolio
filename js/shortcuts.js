@@ -46,12 +46,12 @@ document.addEventListener("keydown", async e => {
     if (lastKey === "g") {
         switch (key) {
             case "v": window.location.href = "videos"; break;
-            case "p": window.location.href = "photos.html"; break;
-            case "d": window.location.href = "design.html"; break;
-            case "a": window.location.href = "about.html"; break;
-            case "h": window.location.href = "index.html"; break;
-            case "r": window.location.href = "resume.html"; break;
-            case "l": window.location.href = "links.html"; break;
+            case "p": window.location.href = "photos"; break;
+            case "d": window.location.href = "design"; break;
+            case "a": window.location.href = "about"; break;
+            case "h": window.location.href = "index"; break;
+            case "r": window.location.href = "resume"; break;
+            case "l": window.location.href = "links"; break;
         }
         lastKey = null;
     } else {

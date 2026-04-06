@@ -15,8 +15,6 @@
 // });
 
 
-
-
 // Header and footer - Where I learned this from - https://youtu.be/AiQqip_pVbA
 class SpecialHeader extends HTMLElement {
     connectedCallback() {
@@ -138,6 +136,21 @@ class SpecialFooter extends HTMLElement {
 
 
 
+class SpeciralSkipLink extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="scroll-top-wrapper">
+        <div class="scroll-top-btn">
+            <a href="#top" role="button" title="Back to top" aria-label="Back to top">
+                <img src="images/Icons/Skip-to-top.png" loading="lazy" alt="Skip to top" title="Return to top">
+            </a>
+        </div>
+    </div>
+        `
+    }
+}
+
+
 class SpecialGoogleAnalytics extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -156,8 +169,15 @@ class SpecialGoogleAnalytics extends HTMLElement {
 }
 
 
+
+
+
+
+
 customElements.define(`special-header`, SpecialHeader)
 customElements.define(`special-footer`, SpecialFooter)
+customElements.define(`special-skip-link`, SpeciralSkipLink)
+
 customElements.define(`special-google-analytics`, SpecialGoogleAnalytics)
 
 
