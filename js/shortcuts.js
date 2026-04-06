@@ -49,7 +49,7 @@ document.addEventListener("keydown", async e => {
             case "p": window.location.href = "photos"; break;
             case "d": window.location.href = "design"; break;
             case "a": window.location.href = "about"; break;
-            case "h": window.location.href = "index"; break;
+            case "h": window.location.href = "/"; break;
             case "r": window.location.href = "resume"; break;
             case "l": window.location.href = "links"; break;
         }
